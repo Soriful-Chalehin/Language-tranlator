@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- This app is developed by Soriful Chalehin. -->
+    <meta charset="utf-8">  
+    <title>Language Translator developed by Soriful Chalehin.</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- About the app -->
+    <div class="about">
+      <H3 class="titile">Easy Translator App</H3>
+      <p>This is simple functional translator app developed by Soriful Chalehin.</p>
+    </div>
+    <!-- date time -->
+    <div class="dateTime">
+      <span><b>Date: </b> <i id="date"></i></span>
+      <span><b>Time: </b> <i id="time"></i></span>
+    </div>
+    <!-- main container -->
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+    <!-- footer -->
+<div class="footer">
+  <p>This is Open Sourse project, you can contribute as a contributer. <br>
+</p><b width="10px" style="display: inline-flex; justify-content: center; align-items: center; width: 15px; height: 15px;">-</b>Soriful Chalehin.
+</div>
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+<!-- All code are writen by Soriful Chalehin.
+---- Contact info: 
+---- Facebook: https://facebook.com/Chalehin 
+---- Github: https://github.com/Soriful-Chalehin 
+ -->
